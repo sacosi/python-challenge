@@ -8,7 +8,7 @@ candidatesList=[]
 countVotes=[]
 
 #Path to the csv file
-sourcePath = os.path.join('..','..','..','..','RU-JER-DATA-PT-01-2020','02-Homework','03-Python','Instructions','PyPoll','Resources','election_data.csv')
+sourcePath = os.path.join('election_data.csv')
 
 #Open the file
 with open(sourcePath, encoding='utf-8') as csvfile:

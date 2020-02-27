@@ -10,7 +10,7 @@ profitChange=[]
 profitDateChange=[]
 
 #Path to the csv file
-sourcePath = os.path.join('..','..','..','..','RU-JER-DATA-PT-01-2020','02-Homework','03-Python','Instructions','PyBank','Resources','budget_data.csv')
+sourcePath = os.path.join('budget_data.csv')
 
 #Open the file
 with open(sourcePath, encoding='utf-8') as csvfile:

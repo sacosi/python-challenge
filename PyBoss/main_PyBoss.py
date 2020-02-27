@@ -65,7 +65,7 @@ ssn=[]
 state=[]
 
 #Path to the text file
-sourcePath = os.path.join('..','..','..','..','RU-JER-DATA-PT-01-2020','02-Homework','03-Python','ExtraContent','Instructions','PyBoss','employee_data.csv')
+sourcePath = os.path.join('employee_data.csv')
 
 #Open the file
 with open(sourcePath, encoding='utf-8') as csvfile:
